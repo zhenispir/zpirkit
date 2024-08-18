@@ -14,10 +14,10 @@ export async function load({ params, fetch, setHeaders }) {
 		fetch(`/api/listContent.json`)
 	])
 	if (pageData.status > 400) {
-		throw error(pageData.status, await pageData.text());
+		error(pageData.status, await pageData.text());
 	}
 	if (listData.status > 400) {
-		throw error(listData.status, await listData.text());
+		error(listData.status, await listData.text());
 	}
 	setHeaders({
 		'cache-control': 'public, max-age=3600' // 1 hour - increase the max age as you get more confident in your caching
