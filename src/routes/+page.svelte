@@ -1,5 +1,5 @@
 <script>
-	import Newsletter from '../components/Newsletter.svelte';
+	// import Newsletter from '../components/Newsletter.svelte';  I dont have this component yet!
 	import FeatureCard from '../components/FeatureCard.svelte';
 	import LatestPosts from '../components/LatestPosts.svelte';
 	import {
@@ -85,5 +85,5 @@
 
 	<LatestPosts {items} />
 
-	<Newsletter />
+	<!-- <Newsletter /> -->
 </div>

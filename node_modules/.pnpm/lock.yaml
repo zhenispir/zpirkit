@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@leeoniya/ufuzzy':
-    specifier: ^1.0.11
+    specifier: ^1.0.14
     version: 1.0.14
   date-fns:
     specifier: ^2.30.0
@@ -21,7 +21,7 @@ dependencies:
     specifier: ^15.0.1
     version: 15.0.1
   shiki:
-    specifier: ^0.14.5
+    specifier: ^0.14.7
     version: 0.14.7
   snarkdown:
     specifier: ^2.0.0
@@ -30,18 +30,18 @@ dependencies:
     specifier: ^1.0.4
     version: 1.0.4
   sveltekit-search-params:
-    specifier: ^1.0.15
+    specifier: ^1.1.1
     version: 1.1.1(@sveltejs/kit@1.27.6)(svelte@4.2.18)
 
 devDependencies:
   '@fontsource/fira-mono':
-    specifier: ^5.0.8
+    specifier: ^5.0.14
     version: 5.0.14
   '@histoire/plugin-svelte':
-    specifier: ^0.17.6
+    specifier: ^0.17.17
     version: 0.17.17(histoire@0.17.17)(svelte@4.2.18)(vite@5.4.1)
   '@playwright/test':
-    specifier: ^1.40.1
+    specifier: ^1.46.1
     version: 1.46.1
   '@svelte-put/toc':
     specifier: ^4.0.0
@@ -56,25 +56,25 @@ devDependencies:
     specifier: 1.27.6
     version: 1.27.6(svelte@4.2.18)(vite@5.4.1)
   '@tailwindcss/typography':
-    specifier: ^0.5.10
+    specifier: ^0.5.14
     version: 0.5.14(tailwindcss@3.4.10)
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.13.1
+    specifier: ^6.21.0
     version: 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.5.4)
   '@typescript-eslint/parser':
-    specifier: ^6.13.1
+    specifier: ^6.21.0
     version: 6.21.0(eslint@8.57.0)(typescript@5.5.4)
   autoprefixer:
-    specifier: ^10.4.16
+    specifier: ^10.4.20
     version: 10.4.20(postcss@8.4.41)
   concurrently:
     specifier: ^8.2.2
     version: 8.2.2
   eslint:
-    specifier: ^8.54.0
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-config-prettier:
-    specifier: ^9.0.0
+    specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-svelte3:
     specifier: ^4.0.0
@@ -83,25 +83,25 @@ devDependencies:
     specifier: ^4.0.3
     version: 4.0.3
   histoire:
-    specifier: ^0.17.6
+    specifier: ^0.17.17
     version: 0.17.17(vite@5.4.1)
   mdsvex:
-    specifier: ^0.11.0
+    specifier: ^0.11.2
     version: 0.11.2(svelte@4.2.18)
   postcss:
-    specifier: ^8.4.31
+    specifier: ^8.4.41
     version: 8.4.41
   postcss-load-config:
     specifier: ^4.0.2
     version: 4.0.2(postcss@8.4.41)
   prettier:
-    specifier: ~3.1.0
+    specifier: ~3.1.1
     version: 3.1.1
   prettier-plugin-svelte:
-    specifier: ^3.1.2
+    specifier: ^3.2.6
     version: 3.2.6(prettier@3.1.1)(svelte@4.2.18)
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.7
+    specifier: ^0.5.14
     version: 0.5.14(prettier-plugin-svelte@3.2.6)(prettier@3.1.1)
   rehype-autolink-headings:
     specifier: ^7.1.0
@@ -116,7 +116,7 @@ devDependencies:
     specifier: ^10.0.0
     version: 10.0.0
   remark-abbr:
-    specifier: ^1.4.1
+    specifier: ^1.4.2
     version: 1.4.2
   remark-autolink-headings:
     specifier: ^7.0.1
@@ -137,7 +137,7 @@ devDependencies:
     specifier: ^11.0.0
     version: 11.0.0
   remark-rehype:
-    specifier: ^11.0.0
+    specifier: ^11.1.0
     version: 11.1.0
   remark-sectionize:
     specifier: ^2.0.0
@@ -155,34 +155,34 @@ devDependencies:
     specifier: ^1.2.2
     version: 1.2.2
   svelte:
-    specifier: ^4.2.7
+    specifier: ^4.2.18
     version: 4.2.18
   svelte-check:
-    specifier: ^3.6.2
+    specifier: ^3.8.5
     version: 3.8.5(postcss-load-config@4.0.2)(postcss@8.4.41)(svelte@4.2.18)
   svelte-preprocess:
-    specifier: ^5.1.1
+    specifier: ^5.1.4
     version: 5.1.4(postcss-load-config@4.0.2)(postcss@8.4.41)(svelte@4.2.18)(typescript@5.5.4)
   tailwindcss:
-    specifier: ^3.3.5
+    specifier: ^3.4.10
     version: 3.4.10
   tslib:
-    specifier: ^2.6.2
+    specifier: ^2.6.3
     version: 2.6.3
   typescript:
-    specifier: ^5.3.2
+    specifier: ^5.5.4
     version: 5.5.4
   unified:
-    specifier: ^11.0.4
+    specifier: ^11.0.5
     version: 11.0.5
   vfile:
-    specifier: ^6.0.1
+    specifier: ^6.0.2
     version: 6.0.2
   vfile-reporter:
-    specifier: ^8.1.0
+    specifier: ^8.1.1
     version: 8.1.1
   vite:
-    specifier: ^5.0.3
+    specifier: ^5.4.1
     version: 5.4.1
 
 packages:
