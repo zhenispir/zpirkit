@@ -322,7 +322,7 @@ declare module '$env/dynamic/private' {
  * console.log(env.PUBLIC_DEPLOYMENT_SPECIFIC_VARIABLE);
  * ```
  */
-declare module '$env/static/public' {
+declare module '$env/dynamic/public' {
 	export const env: {
 		[key: `PUBLIC_${string}`]: string | undefined;
 	}
