@@ -26,7 +26,7 @@
 		<div class="flex flex-col space-y-4">
 			<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
 			<a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a>
+			<!-- <a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a> -->
 			<a class="text-gray-500 transition hover:text-gray-300" href="/rss.xml" rel="external">
 				RSS
 			</a>
@@ -59,8 +59,6 @@
 		</div>
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
-		This blog is based on the
-		<a href="https://swyxkit.netlify.app/">swyxkit</a>
-		template.
+		ZhenisPir 2024
 	</p>
 </footer>

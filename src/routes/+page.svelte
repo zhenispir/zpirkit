@@ -42,12 +42,12 @@
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
 			<h1 class="mb-3 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-				This is
+				Hello, it's me -
 
 				<span
-					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
+					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-blue-900"
 				>
-					<span class="relative text-yellow-400 skew-y-3">{SITE_TITLE}</span>
+					<span class="relative text-yellow-300 skew-y-2">{SITE_TITLE}</span>
 				</span>
 				!
 			</h1>
