@@ -3,8 +3,7 @@ export const APPROVED_POSTERS_GH_USERNAME = ['zhenispir'];
 export const GH_USER_REPO = 'zhenispir/my-swyxkit'; // used for pulling github issues and offering comments
 export const SITE_TITLE = 'ZhenisPir';
 export const SITE_DESCRIPTION = "My personal blog. I'm a teacher, web developer, writer, and youtuber.";
-export const DEFAULT_OG_IMAGE =
-	'';
+export const DEFAULT_OG_IMAGE = 'static/profile/OG_image.jpg';
 export const MY_TWITTER_HANDLE = 'ZhenisPir';
 export const MY_YOUTUBE = '';
 export const POST_CATEGORIES = ['Essay', 'Note']; // Other categories you can consider adding: Talks, Tutorials, Snippets, Podcasts, Notes...

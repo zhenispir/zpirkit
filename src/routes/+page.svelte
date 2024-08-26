@@ -52,16 +52,17 @@
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify/Vercel.</span
-				> Updated for
-				<a href="https://github.com/sveltejs/kit/"
-					>SvelteKit 1.0</a
-				>!
+				A blog-portfolio about <span class="font-semibold"
+				>Education, Programming</span>, and well about
+				<span class="font-semibold"
+				> everything else</span> in my life.
+				<!-- I swear myself that I would be honest and transparent about everything I write here.
+				So, if you are looking for a blog that is not afraid to speak the truth, you are in the right place.
+				Do not try to be judgemental, it is just my perspective. -->
 			</h2>
-			<p class="mb-16 text-gray-600 dark:text-gray-400">
+			<!-- <p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href={REPO_URL}>View source and feature list here!</a>
-			</p>
+			</p> -->
 		</div>
 		<!-- <div
 				class="w-[80px] h-[80px] rounded-full sm:w-[176px] sm:h-[136px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
@@ -73,13 +74,11 @@
 			Featured Posts
 		</h3>
 		<div class="flex flex-col gap-6 md:flex-row">
-			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
-			<FeatureCard
-				title="Moving to a GitHub CMS"
-				href="/moving-to-a-github-cms"
-				stringData="Jan 2022"
-			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
+			<FeatureCard 
+				title="Welcome to swyxkit 2022!" 
+				href="/welcome" 
+				stringData="Jan 2022" />
+			
 		</div>
 	</section>
 
