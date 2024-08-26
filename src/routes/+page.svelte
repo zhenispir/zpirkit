@@ -78,7 +78,14 @@
 				title="Welcome to swyxkit 2022!" 
 				href="/welcome" 
 				stringData="Jan 2022" />
-			
+			<FeatureCard 
+				title="Welcome to swyxkit 2022!" 
+				href="/welcome" 
+				stringData="Jan 2022" />
+			<FeatureCard 
+				title="Welcome to swyxkit 2022!" 
+				href="/welcome" 
+				stringData="Jan 2022" />
 		</div>
 	</section>
 
