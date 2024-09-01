@@ -6,7 +6,7 @@ export const SITE_DESCRIPTION = "My personal blog. I'm a teacher, web developer,
 export const DEFAULT_OG_IMAGE = 'static/profile/OG_image.jpg';
 export const MY_TWITTER_HANDLE = 'ZhenisPir';
 export const MY_YOUTUBE = '';
-export const POST_CATEGORIES = ['Essay', 'Note']; // Other categories you can consider adding: Talks, Tutorials, Snippets, Podcasts, Notes...
+export const POST_CATEGORIES = ['Lesson', 'Tutorial', 'Essay', 'Note']; // Other categories you can consider adding: Talks, Tutorials, Snippets, Podcasts, Notes...
 export const GH_PUBLISHED_TAGS = ['Published'];
 
 // auto generated variables
