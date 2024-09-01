@@ -7,10 +7,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["_redirects","android-chrome-192x192.png","android-chrome-256x256.png","apple-touch-icon.png","browserconfig.xml","favicon-16x16.png","favicon-32x32.png","favicon.ico","mstile-150x150.png","robots.txt","safari-pinned-tab.svg","site.webmanifest"]),
-	mimeTypes: {".png":"image/png",".xml":"application/xml",".txt":"text/plain",".svg":"image/svg+xml",".webmanifest":"application/manifest+json"},
+	assets: new Set(["_redirects","android-chrome-192x192.png","android-chrome-384x384.png","apple-touch-icon.png","browserconfig.xml","favicon-16x16.png","favicon-32x32.png","favicon.ico","mstile-150x150.png","profile/OG_image.jpg","robots.txt","safari-pinned-tab.svg","site.webmanifest"]),
+	mimeTypes: {".png":"image/png",".xml":"text/xml",".jpg":"image/jpeg",".txt":"text/plain",".svg":"image/svg+xml",".webmanifest":"application/manifest+json"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.xwn-ys6m.js","app":"_app/immutable/entry/app.BnF2sm5l.js","imports":["_app/immutable/entry/start.xwn-ys6m.js","_app/immutable/chunks/scheduler.CNzAINQ-.js","_app/immutable/chunks/singletons.CL4UoklD.js","_app/immutable/chunks/control.C7uy2HLq.js","_app/immutable/entry/app.BnF2sm5l.js","_app/immutable/chunks/preload-helper.D6kgxu3v.js","_app/immutable/chunks/scheduler.CNzAINQ-.js","_app/immutable/chunks/index.CQrDriHR.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.C2ERV9Sj.js","app":"_app/immutable/entry/app.sOYsQRz0.js","imports":["_app/immutable/entry/start.C2ERV9Sj.js","_app/immutable/chunks/entry.B-PjUGbu.js","_app/immutable/chunks/scheduler.z6visP7U.js","_app/immutable/chunks/control.CYgJF_JY.js","_app/immutable/entry/app.sOYsQRz0.js","_app/immutable/chunks/preload-helper.D6kgxu3v.js","_app/immutable/chunks/scheduler.z6visP7U.js","_app/immutable/chunks/index.CQGSHDFc.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
@@ -80,7 +80,8 @@ return {
 		matchers: async () => {
 			
 			return {  };
-		}
+		},
+		server_assets: {}
 	}
 }
 })();

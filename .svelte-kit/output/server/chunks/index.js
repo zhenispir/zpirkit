@@ -27,10 +27,22 @@ class Redirect {
     this.location = location;
   }
 }
+class SvelteKitError extends Error {
+  /**
+   * @param {number} status
+   * @param {string} text
+   * @param {string} message
+   */
+  constructor(status, text2, message) {
+    super(message);
+    this.status = status;
+    this.text = text2;
+  }
+}
 class ActionFailure {
   /**
    * @param {number} status
-   * @param {T} [data]
+   * @param {T} data
    */
   constructor(status, data) {
     this.status = status;
@@ -41,7 +53,7 @@ function error(status, body) {
   if (isNaN(status) || status < 400 || status > 599) {
     throw new Error(`HTTP error status codes must be between 400 and 599 — ${status} is invalid`);
   }
-  return new HttpError(status, body);
+  throw new HttpError(status, body);
 }
 function json(data, init) {
   const body = JSON.stringify(data);
@@ -77,6 +89,7 @@ export {
   ActionFailure as A,
   HttpError as H,
   Redirect as R,
+  SvelteKitError as S,
   error as e,
   json as j,
   text as t

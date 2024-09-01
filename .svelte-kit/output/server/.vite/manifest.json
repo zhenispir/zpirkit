@@ -22,6 +22,10 @@
       "_siteConfig.js"
     ]
   },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
   "_index.js": {
     "file": "chunks/index.js",
     "name": "index"
@@ -52,7 +56,8 @@
     "file": "chunks/stores.js",
     "name": "stores",
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_exports.js"
     ]
   },
   "node_modules/.pnpm/@fontsource+fira-mono@5.0.14/node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff": {
@@ -103,14 +108,15 @@
     "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal.D6XfiR-_.woff2",
     "src": "node_modules/.pnpm/@fontsource+fira-mono@5.0.14/node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
   },
-  "node_modules/.pnpm/@sveltejs+kit@1.27.6_svelte@4.2.18_vite@5.4.1/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+  "node_modules/.pnpm/@sveltejs+kit@2.5.22_@sveltejs+vite-plugin-svelte@3.1.1_svelte@4.2.18_vite@5.4.1/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
     "name": "index",
-    "src": "node_modules/.pnpm/@sveltejs+kit@1.27.6_svelte@4.2.18_vite@5.4.1/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.5.22_@sveltejs+vite-plugin-svelte@3.1.1_svelte@4.2.18_vite@5.4.1/node_modules/@sveltejs/kit/src/runtime/server/index.js",
     "isEntry": true,
     "imports": [
       "_internal.js",
       "_index.js",
+      "_exports.js",
       "_index2.js"
     ]
   },
@@ -138,7 +144,7 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.J3fDceIg.css"
+      "_app/immutable/assets/_layout.DRr_HNs8.css"
     ],
     "assets": [
       "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.B04YIrm4.woff2",
@@ -245,8 +251,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_index2.js",
       "_stores.js",
+      "_index2.js",
       "_siteConfig.js"
     ],
     "dynamicImports": [
