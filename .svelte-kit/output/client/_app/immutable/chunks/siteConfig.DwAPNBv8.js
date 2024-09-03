@@ -1,0 +1,1 @@
+const t="https://www.zhenispir.com",s="zhenispir/my-swyxkit",o="ZhenisPir",a="My personal blog. I'm a teacher, web developer, writer, and youtuber.",e="static/profile/OG_image.jpg",i="ZhenisPir",n="",E=["Lesson","Tutorial","Essay","Note"],c="https://github.com/"+s;s.split("/")[0];export{e as D,s as G,i as M,E as P,c as R,o as S,t as a,a as b,n as c};

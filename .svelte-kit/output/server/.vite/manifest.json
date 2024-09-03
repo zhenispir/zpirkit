@@ -144,7 +144,7 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DRr_HNs8.css"
+      "_app/immutable/assets/_layout.ByJwkVDN.css"
     ],
     "assets": [
       "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.B04YIrm4.woff2",
@@ -199,9 +199,9 @@
     "imports": [
       "_ssr.js",
       "_siteConfig.js",
-      "_index2.js",
       "_LatestPosts.js",
-      "_stores.js"
+      "_stores.js",
+      "_index2.js"
     ],
     "css": [
       "_app/immutable/assets/_page.PPNWMmPZ.css"
