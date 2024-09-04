@@ -1,8 +1,12 @@
 {
 	"/": [
-		"src/routes/+page.js"
+		"src/routes/+page.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
 	],
-	"/about": [],
+	"/about": [
+		"src/routes/+layout.js"
+	],
 	"/api/blog/[slug].json": [
 		"src/routes/api/blog/[slug].json/+server.js"
 	],
@@ -10,7 +14,8 @@
 		"src/routes/api/listContent.json/+server.js"
 	],
 	"/blog": [
-		"src/routes/blog/+page.js"
+		"src/routes/blog/+page.js",
+		"src/routes/+layout.js"
 	],
 	"/rss.xml": [
 		"src/routes/rss.xml/+server.js"
@@ -19,6 +24,7 @@
 		"src/routes/sitemap.xml/+server.js"
 	],
 	"/[slug]": [
-		"src/routes/[slug]/+page.js"
+		"src/routes/[slug]/+page.js",
+		"src/routes/+layout.js"
 	]
 }

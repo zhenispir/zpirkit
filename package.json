@@ -13,7 +13,8 @@
 		"story:build": "histoire build",
 		"test": "playwright test",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"deploy": "pnpm build && gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^5.0.14",
@@ -22,6 +23,7 @@
 		"@svelte-put/toc": "^4.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-netlify": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.4",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.14",
@@ -32,6 +34,7 @@
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"gh-pages": "^6.1.1",
 		"gray-matter": "^4.0.3",
 		"histoire": "^0.17.17",
 		"mdsvex": "^0.11.2",

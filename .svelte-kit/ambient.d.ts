@@ -67,7 +67,9 @@ declare module '$env/static/private' {
 	export const XRE_START_OFFLINE: string;
 	export const npm_package_scripts_check_watch: string;
 	export const COMMAND_MODE: string;
+	export const npm_package_scripts_deploy: string;
 	export const npm_package_devDependencies_mdsvex: string;
+	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const SSH_AUTH_SOCK: string;
 	export const npm_package_devDependencies_remark_github: string;
@@ -136,6 +138,7 @@ declare module '$env/static/private' {
 	export const LOGNAME: string;
 	export const npm_package_scripts_format: string;
 	export const MOZ_LAUNCHED_CHILD: string;
+	export const npm_package_devDependencies_gh_pages: string;
 	export const npm_package_devDependencies_remark_parse: string;
 	export const npm_lifecycle_script: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
@@ -238,7 +241,9 @@ declare module '$env/dynamic/private' {
 		XRE_START_OFFLINE: string;
 		npm_package_scripts_check_watch: string;
 		COMMAND_MODE: string;
+		npm_package_scripts_deploy: string;
 		npm_package_devDependencies_mdsvex: string;
+		npm_package_devDependencies__sveltejs_adapter_static: string;
 		PNPM_SCRIPT_SRC_DIR: string;
 		SSH_AUTH_SOCK: string;
 		npm_package_devDependencies_remark_github: string;
@@ -307,6 +312,7 @@ declare module '$env/dynamic/private' {
 		LOGNAME: string;
 		npm_package_scripts_format: string;
 		MOZ_LAUNCHED_CHILD: string;
+		npm_package_devDependencies_gh_pages: string;
 		npm_package_devDependencies_remark_parse: string;
 		npm_lifecycle_script: string;
 		VSCODE_GIT_IPC_HANDLE: string;

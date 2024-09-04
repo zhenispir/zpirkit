@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex';
 import remarkGithub from 'remark-github';
 import remarkAbbr from 'remark-abbr';
@@ -55,6 +55,12 @@ const config = {
 
 			// dec 2022 - moved back to true since we're using esbuild again
 			edge: true,
+
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		}),
 		// https://kit.svelte.dev/docs/configuration#csp
 		// csp: {
@@ -67,5 +73,7 @@ const config = {
 		// }
 	}
 };
+
+config.paths = { base: process.argv.includes('dev') ? '' : "/zhenispir.github.io"};
 
 export default config;
