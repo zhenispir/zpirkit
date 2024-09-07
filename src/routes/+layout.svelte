@@ -25,7 +25,7 @@
 	<div class="grid w-full max-w-2xl grid-cols-1 gap-4 px-4 pb-16 sm:grid-cols-2 sm:px-8">
 		<div class="flex flex-col space-y-4">
 			<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a>
+			<!-- <a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a> -->
 			<!-- <a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a> -->
 			<a class="text-gray-500 transition hover:text-gray-300" href="/rss.xml" rel="external">
 				RSS
