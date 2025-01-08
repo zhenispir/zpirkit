@@ -76,7 +76,7 @@
 </script>
 
 <svelte:head>
-	<title>{SITE_TITLE} Blog Index</title>
+	<title>{SITE_TITLE} Blog</title>
 	<meta name="description" content={`Latest ${SITE_TITLE} posts`} />
 </svelte:head>
 
