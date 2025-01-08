@@ -75,17 +75,17 @@
 		</h3>
 		<div class="flex flex-col gap-6 md:flex-row">
 			<FeatureCard 
-				title="Welcome to swyxkit 2022!" 
-				href="/welcome" 
-				stringData="Jan 2022" />
+				title="Welcome to Academic Year 2024-2025!" 
+				href="/ay-2024-25" 
+				stringData="August 2024" />
 			<FeatureCard 
-				title="Welcome to swyxkit 2022!" 
-				href="/welcome" 
-				stringData="Jan 2022" />
+				title="PiXMs" 
+				href="/pixms" 
+				stringData="Jan 2025" />
 			<FeatureCard 
-				title="Welcome to swyxkit 2022!" 
-				href="/welcome" 
-				stringData="Jan 2022" />
+				title="My Projects" 
+				href="/projects" 
+				stringData="Jan 2025" />
 		</div>
 	</section>
 
