@@ -59,6 +59,6 @@
 		</div>
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
-		ZhenisPir @ 2025
+		ZhenisPir 2025
 	</p>
 </footer>
